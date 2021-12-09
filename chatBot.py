@@ -113,8 +113,13 @@ pairs = [
     ],
 ]
 
-
-
 # ************************************************
 # ************************************************
 # ************************************************
+def chat():
+    print("Hi! I am a chatbot created by Analytics Vidhya for your service")
+    chat = Chat(pairs, reflections)
+    chat.converse()
+#initiate the conversation
+if __name__ == "__main__":
+    chat()
